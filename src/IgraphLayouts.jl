@@ -30,7 +30,7 @@ function fruchtermanreingold(adjmat::AbstractMatrix; seed=1234)
 	return [Point(y, x) for (x, y) in eachrow(l)]
 end
 
-function kamadakawai(g::AbstractGraph)
+function kamadakawai(g::AbstractGraph; seed=1234)
     adjmat = adjacency_matrix(g)
     mode = is_directed(g) ? "directed" : "undirected"
     
