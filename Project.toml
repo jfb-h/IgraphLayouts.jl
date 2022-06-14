@@ -11,6 +11,8 @@ RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 
 [compat]
 Graphs = "1"
+RCall = "0.13"
+GeometryBasics = "0.4"
 julia = "1"
 
 [extras]
